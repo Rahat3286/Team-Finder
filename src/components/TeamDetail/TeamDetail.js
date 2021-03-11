@@ -42,10 +42,10 @@ const TeamDetail = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="social-icons d-flex justify-content-center align-items-center">
-                            <a id="facebook" href={`https://${teamDetails.strFacebook}`} target="_blank">{<FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>}</a>
-                            <a id="twitter" href={`https://${teamDetails.strtwitter}`} target="_blank">{<FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>}</a>
-                            <a id="instagram" href={`https://${teamDetails.strInstagram}`} target="_blank">{<FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>}</a>
-                            <a id="youtube" href={`https://${teamDetails.stryoutube}`} target="_blank">{<FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>}</a>
+                            <a id="facebook" href={`https://${teamDetails.strFacebook}`} target="_blank" rel="noreferrer">{<FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>}</a>
+                            <a id="twitter" href={`https://${teamDetails.strtwitter}`} target="_blank" rel="noreferrer">{<FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>}</a>
+                            <a id="instagram" href={`https://${teamDetails.strInstagram}`} target="_blank" rel="noreferrer">{<FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>}</a>
+                            <a id="youtube" href={`https://${teamDetails.stryoutube}`} target="_blank" rel="noreferrer">{<FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>}</a>
                         </div>
                     </div>
                 </div>
