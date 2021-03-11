@@ -1,0 +1,41 @@
+.social-icons a{
+	width:40px;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(46, 40, 29);
+	border-radius:50%;
+	margin:20px 10px;
+}
+
+#facebook{
+	color: white;
+}
+#twitter{
+	color: white;
+}
+#instagram{
+	color: white;
+}
+#youtube{
+	color: white;
+}
+
+#facebook:hover{
+	background: rgb(28, 132, 201);
+	border-radius: 20px;
+}
+#twitter:hover{
+	background: rgb(74,170,237);
+	border-radius: 20px;
+}
+#instagram:hover{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	border-radius: 20px;
+}
+#youtube:hover{
+	background: rgb(255,23,3);
+	border-radius: 20px;
+}
+
