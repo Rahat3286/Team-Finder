@@ -17,7 +17,12 @@ const TeamDetail = () => {
 
     return (
         <div className="container">
-            <img src={teamDetails.strTeamBadge} alt="" />
+            <div className="card" style={{ maxWidth: "18rem" }}>
+                {/* { CONDITIONAL FORMATTING
+                    teamDetails.strGender === 'Male' ? <img src={male} alt="male" /> : <img src={female} alt="female"/>
+                } */}
+                <img src={teamDetails.strTeamBadge} alt="" />
+            </div>
             <div className="row">
                 <div className="col-md-6">
                     <h2>{teamDetails.strTeam}</h2>
