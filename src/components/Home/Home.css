@@ -1,0 +1,25 @@
+.background-image{
+    width: 100vw;
+    height: 362px;
+    background: url("../image/BackGround_Image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 0.7;
+}
+
+.background-image span{
+    color: rgb(0, 255, 38);
+    font-weight: bold;
+    font-size: 4vw;
+    font-family: calibri;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    position: relative;
+    top: 30%;
+    left: 36%;
+    transform: translate(-50%,-50%);
+    opacity: 0.7;
+}

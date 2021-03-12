@@ -19,7 +19,7 @@ const Team = (props) => {
                 <div className="card-body">
                     <h5 className="card-title text-center"> <b>{strTeam}</b> </h5>
                     <p className="card-text text-center">Sports type: {strSport}</p>
-                    <button className="btn btn-primary" onClick={() => handleClick(idTeam)}>Explore <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
+                    <button className="btn btn-success" onClick={() => handleClick(idTeam)}>Explore <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
                 </div>
             </div>
         </div>
