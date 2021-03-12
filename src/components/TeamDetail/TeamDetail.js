@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHistory, faFlag, faFutbol, faMars, faStadium } from '@fortawesome/free-solid-svg-icons';
+import { faHistory, faFlag, faFutbol, faMars} from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import './TeamDetail.css';
 import male from '../image/female.png';
@@ -83,6 +83,6 @@ const TeamDetail = () => {
 
 export default TeamDetail;
 
-// <FontAwesomeIcon icon={faStadium }></FontAwesomeIcon>
+
 
 
